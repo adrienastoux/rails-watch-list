@@ -1,0 +1,33 @@
+/* app/assets/stylesheets/navbar.scss */
+
+/* Styles pour la Navbar */
+.navbar-lewagon {
+  justify-content: space-between;
+  padding: 50px; /* Augmente le padding pour plus d'espace */
+  height: 25px; /* Ajustez la hauteur de la navbar selon vos besoins */
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px; /* Ajustez la taille du logo */
+  height: auto; /* Conserve les proportions du logo */
+}
+
+.navbar-lewagon .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Aligne les éléments de la navbar verticalement */
+}
+
+.navbar-lewagon .nav-link {
+  color: #ffffff; /* Couleur du texte des liens */
+  margin-right: 30px; /* Espace entre les liens */
+  font-size: 1.2rem; /* Augmente la taille du texte des liens */
+}
+
+.navbar-lewagon .nav-link:hover {
+  color: #cccccc; /* Couleur du texte des liens au survol */
+}

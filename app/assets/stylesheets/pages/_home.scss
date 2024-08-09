@@ -1,0 +1,80 @@
+/* app/assets/stylesheets/lists.scss */
+
+/* Styles pour le conteneur des listes */
+.lists-container {
+  padding: 2rem;
+  background-color: #f8f9fa; /* Couleur de fond générale */
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  color: #000000;
+}
+
+.list-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+.lists {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto; /* Permet le défilement horizontal si les éléments dépassent */
+  white-space: nowrap; /* Empêche les éléments de revenir à la ligne */
+}
+
+.list-card {
+  display: inline-block; /* Pour que les éléments respectent l'espace horizontal */
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.list-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4); /* Fond sombre pour le texte */
+  color: rgb(255, 255, 255);
+}
+
+.list-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+
+body {
+  background-color: #242424; /* Remplacez par la couleur de votre choix */
+  color: #ffffff; /* Facultatif : définir une couleur de texte par défaut */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}

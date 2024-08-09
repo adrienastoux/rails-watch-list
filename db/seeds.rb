@@ -1,9 +1,14 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+
+Movie.create(title: "Wonder Woman 1984", overview: "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s.", poster_url: "https://image.tmdb.org/t/p/original/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg", rating: 6.9)
+Movie.create(title: "The Shawshank Redemption", overview: "Framed in the 1940s for double murder, upstanding banker Andy Dufresne begins a new life at the Shawshank prison.", poster_url: "https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg", rating: 8.7)
+Movie.create(title: "Titanic", overview: "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic.", poster_url: "https://image.tmdb.org/t/p/original/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg", rating: 7.9)
+Movie.create(title: "Ocean's Eight", overview: "Debbie Ocean, a criminal mastermind, gathers a crew of female thieves to pull off the heist of the century.", poster_url: "https://image.tmdb.org/t/p/original/MvYpKlpFukTivnlBhizGbkAe3v.jpg", rating: 7.0)
+Movie.create(title: "Inception", overview: "A thief who enters the dreams of others to steal secrets from their subconscious is given a chance to have his criminal history erased.", poster_url: "https://image.tmdb.org/t/p/original/8hP9DScsGbX4tUpvC0je3qK86bi.jpg", rating: 8.8)
+Movie.create(title: "The Dark Knight", overview: "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.", poster_url: "https://image.tmdb.org/t/p/original/rp1HrrAfXl7y0j2XK6pbt9T3Z93.jpg", rating: 8.4)
+Movie.create(title: "Pulp Fiction", overview: "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.", poster_url: "https://image.tmdb.org/t/p/original/9e9rOsYdJX2T9hUknjIu0ycrJ6u.jpg", rating: 8.9)
+Movie.create(title: "Forrest Gump", overview: "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal, the events of the 1960s, are told from the perspective of an Alabama man with an IQ of 75.", poster_url: "https://image.tmdb.org/t/p/original/bLvqoHBs99J8bR43fWm2d4bG7aB.jpg", rating: 8.8)
+Movie.create(title: "The Matrix", overview: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.", poster_url: "https://image.tmdb.org/t/p/original/9j4LuMc6RRqVjWh34Oq3ZbJ8bJt.jpg", rating: 8.7)
+Movie.create(title: "Interstellar", overview: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.", poster_url: "https://image.tmdb.org/t/p/original/xM8b1i8oGvswRUcIMdUEq3sgs8E.jpg", rating: 8.6)
+Movie.create(title: "Fight Club", overview: "An insomniac office worker and a soap salesman build a global organization to help vent male aggression.", poster_url: "https://image.tmdb.org/t/p/original/pfPg0kJvRrkMEg7o7abPYt8q7dy.jpg", rating: 8.8)
+Movie.create(title: "The Godfather", overview: "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.", poster_url: "https://image.tmdb.org/t/p/original/4nWh16GJgtA6dy74M9KNrsQm23i.jpg", rating: 9.2)
+Movie.create(title: "Joker", overview: "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He begins a slow descent into insanity as he transforms into the criminal mastermind known as the Joker.", poster_url: "https://image.tmdb.org/t/p/original/5xwz3SnnLRn4z8ZgxraUsyqk8gi.jpg", rating: 8.4)
